@@ -1,0 +1,256 @@
+{
+    
+        "postgreSql.dbName": "dvdrentals",
+        "postgreSql.hostName": "localhost",
+        "postgreSql.username": "postgres",
+
+    "python.pythonPath": "F:\\Ana\\envs\\tensorflows\\python.exe",
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_flask"
+    ],
+    "material-icon-theme.showWelcomeMessage": false,
+    "editor.fontSize":15,
+    "editor.formatOnSave": false, 
+    "terminal.integrated.fontFamily":"Consolas",
+    "editor.fontFamily": "Consolas",
+    "go.lintOnSave": "off",
+    // "go.lintTool": "golangci-lint",
+    "go.lintFlags": ["--disable=all"],
+    // Segoe Print MV Boli
+
+// "editor.fontWeight": "600",
+"workbench.colorCustomizations": {
+    
+    // "editorGutter.addedBackground": "#048eb8",
+    // "editorGutter.modifiedBackground": "#54a30b",
+    // "editorGutter.deletedBackground": "#cf0505",
+    // "editorOverviewRuler.addedForeground": "#048eb8",
+    // "editorOverviewRuler.modifiedForeground": "#54a30b",
+    // "editorOverviewRuler.deletedForeground": "#cf0505",
+    // "editorWarning.foreground": "#032e3b",
+    // "peekViewEditor.matchHighlightBackground": "#ffffff",
+    // "editorOverviewRuler.findMatchForeground":"#ffffff",
+    // "editor.maxTokenizationLineLength":1000,011d25 00212b
+    //"editor.background": "#00232b",
+    "editor.wordHighlightBackground": "#1f3b49",
+    //"editor.selectionBackground": "#b5d8fa", //00232b 001a22
+    //"editor.background":"#00191f",8397a3 8b8a8a 012029
+    "editor.foreground": "#5b6fb9",
+    "list.highlightForeground": "#5594f3", //for autocomplete color
+    // "list.": "#ff0000",
+    // "dropdown.listBackground": "#ff0000",
+
+    // "editor.stackFrameHighlightBackground":"#c7b2ee",
+    //"editor.hoverHighlightBackground": "#38164d",
+    //"terminal.background" : "#12121f"
+    //"terminal.background":"#1D2021", 048046
+    //"gitDecoration.modifiedResourceForeground": "#2778d4",
+    //"gitDecoration.untrackedResourceForeground": "#67b867",
+    "terminal.foreground":"#04a36e",    
+    "terminalCursor.foreground":"#22b486", 
+    "terminal.ansiBrightYellow":"#1285bb", 
+    "terminal.ansiRed":"#fc3879",
+    "terminal.ansiWhite":"#22b486",
+    "terminal.ansiYellow":"#e64c4c",
+    "terminal.ansiBrightWhite": "#ff0000",
+    "terminal.ansiBrightBlack":"#f77308",
+    "terminal.ansiBrightBlue": "#ff0000" ,
+    "terminal.ansiBrightCyan": "#d609a3",
+    "terminal.ansiBrightGreen": "#a23fe4",
+     //"editorHoverWidget.background": "#031318",18181a
+    "editorHoverWidget.background": "#18181a",
+
+    //"editorHoverWidget.foreground": "#7d8288",
+    //"editorHoverWidget.border": "#1a1b1b",
+   // "editor.lineHighlightBorder": "#10192c",
+    
+    
+
+    // "titleBar.activeForeground":"#cc4b4b",5987c4
+    "dropdown.foreground": "#9d9d9e",
+    "sideBar.foreground": "#89a5ca", //file name colors
+    // "statusBar.background": "#065f3d",
+    // "statusBar.background": "#f88e04", 
+    //"statusBar.background": "#39b81f",
+    //"statusBar.background": "#06a027",
+    // "statusBar.foreground": "#ffffffd5",
+    //"statusBarItem.hoverBackground": "#0d6623",
+    //"activityBar.foreground": "#272727",
+    // "activityBar.foreground": "#ffffff",
+    // "activityBar.background": "#575a58",
+    "activityBarBadge.background": "#ff0037",
+    "activityBarBadge.foreground": "#ffffff",
+    // "titleBar.activeBackground": "#686969",
+    // "titleBar.activeForeground": "#fdfcfc"
+    // "editor.lineHighlightBackground": "#acd6ee"
+    // "panel.background":"#c9c5c5",
+    // "editor.selectionHighlightBackground": "#dae1e2"
+    },
+
+"editor.tokenColorCustomizations": {
+        
+    // "functions": "#63ce5e",
+     //"functions": "#01a754",
+    // "functions": "#0e9451",
+//     // "functions": "#0704a7e3",
+//     //"functions": "#5b58ece3",
+//     // "functions": "#0353af",
+//     //  "types": "#63ce5e",
+//    // "types": "#0e9451",
+//     // "types": "#0704a7e3",
+//     //"types": "#5b58ece3",
+// // "types": "#109b5a",
+// // "functions": "#109b5a",
+// // 109b5a 02a874 03a863 03a353 05b97d
+//--088ecc eb3d54b2 da394e 
+//--088ecc eb3d54b2 da394e ff8901 ee029fdc df234bef 52a52c 713ffa d8324d f51e4def
+"types": "#e4204adf",
+"functions": "#088ecc",
+     "comments": "#365897",
+     
+  "keywords": "#ee06a1e1",
+//     // "functions": "#0cb27d", 4ba024 52a52c ee029fe1
+//     // "functions": "#5eb959",
+//     // "types": "#2293c7",
+//     // "functions":"#11659c",     
+//     // "keywords": "#e63b3b", 
+//     //"foreground": "#35b116", ec0b0b e93a3a d42525 e92a2a f50101ed ee040c ff3557
+//f04354 ff0037
+//   "keywords":"#d43848",
+
+//     // "keywords": "#df0006",   
+//     // "strings": "#1703c5",
+//     // "strings":"#05bd58",
+//     //"strings":"#057cb3", 0285c2 088ecc
+
+    "strings":"#04a36e",
+
+    "numbers": "#ff7b00",
+    //  "variables": "#317e7e",
+    // "variables": "#2293c7",
+    "textMateRules": [
+            {
+                "scope": "entity.name.tag",
+                "settings": {
+                    // "foreground": "#d30476" f8279a f837a1
+                    //"foreground": "#f837a1c7"
+                    "foreground": "#eb204ce5"
+                },           
+            },
+            {
+                "scope":"entity.other.attribute-name",
+                "settings": {
+                    // "foreground": "#5b159c",c26beeb9
+                    "foreground": "#5364fdfa",
+
+                    
+                }
+            },  
+          
+            {
+                "scope":"string.quoted.double",
+                "settings": {
+                    // "foreground": "#5b159c",c26beeb9
+                    "foreground": "#04a36e",
+
+                    
+                }
+            },   
+            {
+                "scope":"string.quoted.single",
+                "settings": {
+                    // "foreground": "#5b159c",c26beeb9
+                    "foreground": "#04a36e",
+
+                    
+                }
+            },   
+            {
+                "scope":"entity.name.class",
+                "settings": {
+                    // "foreground": "#5b159c",c26beeb9
+                    "foreground": "#04a36e",
+
+                    
+                }
+            },
+            {
+                "scope":"string.regexp",
+                "settings": {
+                    // "foreground": "#5b159c",c26beeb9
+                    "foreground": "#5374e2fa",
+
+                    
+                }
+            },               
+                {
+                    "scope": "keyword.operator",
+                    "settings": {
+                         "foreground": "#a546fd"
+                        //"foreground": "#ac04fa"
+                    }
+                },
+                {
+                    "scope": "variable.parameter",
+                    "settings": {
+                        // "foreground": "#fa04a8",
+                        "foreground": "#a546fd",
+                       
+                    }
+                },
+                
+               
+                             
+                                {
+                                    "name": "Function call",
+                                    "scope": "meta.function-call.generic, meta.function-call.object, meta.function-call.static",
+                                    "settings": {
+                                    //   "foreground": "#35b116"
+                                    //   "foreground": "#3229ac"
+                                    // "foreground": "#03ad36"6d6bf7 43b30f 3aaf03
+                                    //"foreground": "#37a504" 3243da 2f3ec9 2032d1 2032d1dc 5c6bf7dc
+                                    // f04354 "foreground": "#5c6bf7dc" f84c5d
+    //ec2f58e1"foreground": "#5b9e02"   ff0037     eb3d5a fa325d     #eb3d3f 
+    //--f02551ea   sol  ec1f3bd8                 // 5161f0 eb3d54 ee2a54ef df234bef e41e49f5
+    "foreground": "#e4204adf"
+                                    // 3735d3 f04354ea d83b4b
+
+                                    }
+                                  }, 
+            
+        ]
+    
+    },
+    //"editor.minimap.enabled": false,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "git.autofetch": true,
+    "git.autoStash": true,
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.inheritEnv": false,
+    "python.autoComplete.addBrackets": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "window.zoomLevel": 0,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.saveFileBeforeRun": true,
+    "python.autoComplete.extraPaths": [
+        "F:/Ana/lib/site-packages",
+        "F:/Ana/envs/tensor/lib/site-packages"
+      
+    ],
+    "files.autoSave": "off",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.largeFileOptimizations": false,
+    "launch": {
+    
+    
+ 
+    },
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "workbench.colorTheme": "Solarized Next",
+}
